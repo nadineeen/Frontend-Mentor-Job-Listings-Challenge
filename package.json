@@ -1,0 +1,17 @@
+{
+  "name": "static-job-listings-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Job Listings coding challenge](./design/desktop-preview.jpg)",
+  "main": "script.js",
+  "scripts": {
+    "compile-react": "npx babel src --out-dir . --presets react-app/prod",
+    "compile-scss": "npx sass src/style.scss ./style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
